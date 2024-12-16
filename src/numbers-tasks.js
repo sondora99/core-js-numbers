@@ -312,7 +312,7 @@ function getSumOfDigits(num) {
   return num
     .toFixed()
     .split('')
-    .reduce(function (a, b) {
+    .reduce((a, b) => {
       return a + Number(b);
     }, 0);
 }
